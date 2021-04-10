@@ -41,7 +41,7 @@
 
 #coverpic #mainhead {
 	padding: 2rem;
-	font-family: Roboto;
+	font-family: poppins;
 }
 
 #img-div {
@@ -52,15 +52,59 @@
 
 #pubgImg {
 	max-width: 100%;
+	border-radius: 10px;
 }
 
 .source {
 	text-align: center;
 	font-size: 0.5rem;
 	font-family: sans-serif;
+	padding-bottom: 2rem;
 }
 
 #article-main {
-	padding: 2rem;
+	background-color: oldlace;
+	padding: 1rem;
+	font-family: sans-serif;
+	letter-spacing: -0.02rem;
 }
 
+#article-main #about {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+#article-main #secondP {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+footer p {
+	text-align: center;
+	padding: 1rem;
+}
+
+footer > button {
+	float: right;
+	padding: 0.5rem;
+	background-color: orange;
+	font-family: lobster;
+	color: #fff;
+	border: transparent;
+	margin: 1rem;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+button a {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+button:hover {
+	background-color: lime;
+	transition: all 1s;
+}
+
+/* need menu button */
