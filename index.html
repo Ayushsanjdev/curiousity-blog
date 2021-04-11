@@ -7,19 +7,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Curiousity-game-blog</title>
 </head>
 
 <body>
+	<div class="mobile-nav" id="mobile-nav">
+		<div class="close-btn" onclick="toggleMobileNavigation()">
+			<button>
+				<i class="fa fa-close"></i>
+			</button>
+		</div>
+		<a href="#" class="mobile-nav-link mobile-nav-link-active">Home</a>
+		<a href="#" class="mobile-nav-link">Blogs</a>
+		<a href="#" class="mobile-nav-link">Technology</a>
+		<a href="#" class="mobile-nav-link">Newsletter</a>
+	</div>
 	<header id="head">
 		<h1><a href="index.html">Curiousity</a><span>&#9830;</span></h1>
+		<div class="menu-btn" onclick="toggleMobileNavigation()">
+			<button>
+				<i class="fa fa-reorder"></i>
+			</button>
+		</div>
 		<nav id="navbar">
-			<a href="#" id="#">Home</a>
-			<a href="#" id="#">Blogs</a>
-			<a href="#" id="#">Techonology</a>
-			<a href="#" id="#">Newsletter</a>
+			<a href="#" id="#dummy" onclick="dummyNotification()">Home</a>
+			<a href="#" id="#dummy" onclick="dummyNotification()">Blogs</a>
+			<a href="#" id="#dummy" onclick="dummyNotification()">Techonology</a>
+			<a href="#" id="#dummy" onclick="dummyNotification()">Newsletter</a>
+
 		</nav>
 	</header>
+
 	<div id="coverpic">
 		<h2 id="mainhead">PUBG Mobile India lauch date, Latest updates and more</h2>
 		<figure id="img-div">
@@ -51,9 +70,10 @@
 	<footer>
 		<p id="footer-para">Sanz-Blogs<span>&#169;</span></p>
 		<button> <a href="https://www.pubgmobile.com/" target="_blank">
-			See More</a>
+				See More</a>
 		</button>
 	</footer>
+	<script src="script.js"></script>
 </body>
 
 </html>
